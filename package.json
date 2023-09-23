@@ -1,0 +1,16 @@
+{
+  "name": "proshop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/astrohunter62/next-nest-ecommerce",
+  "scripts": {
+    "start:server": "npm run start:dev --prefix server",
+    "start:client": "npm run dev --prefix client",
+    "start": "concurrently npm:start:*"
+  },
+  "author": "astro",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
